@@ -1,0 +1,74 @@
+ @font-face {
+  font-family: lato;
+  src: url(./fonts/Lato/Lato-Regular.ttf);
+ }
+   
+   body{
+        background-color: #000000f2;
+        font-family:lato; font-size: 22px;
+
+    }
+    
+    .navbar{
+        background-color: #ffffff;
+    }
+    .header-section {
+      margin: 20px 0;
+    }
+    .section-title {
+      color: #ffffff;
+      text-align: center;
+      margin: 20px 0;
+      
+    }
+    .carousel {
+      margin-bottom: 20px;
+    }
+    .available-teams, .ranking {
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .calendar {
+    border: 1px solid #ddd;
+    padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .dahlia {
+        color: #ffffff;
+    }
+
+    p{
+        color: #ffffff;
+    }
+
+    .calendar  .matchs {
+
+        text-align: center;
+    }
+
+    .footer {
+      background-color: #1b311e;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer a {
+      color: white;
+      margin: 0 10px;
+    }
+    button{
+        align-items: center;
+    }
+
+    #carouselExampleCaptions {
+      width: 50%;
+      margin: auto;
+    }
+    .carousel-item img{
+      width: 100%;
+      height: auto;
+    }
+    h2 {
+      font-family:lato;
+    }

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: lato;
+    src: url(./fonts/Lato/Lato-Regular.ttf);
+   }
+body, html {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    font-family:lato; font-size: 22px;
+    color: #ffffff;
+    display: flex;
+  }
+  h3 {
+    font-size: large;
+  }
+  .form-container {
+    width: 100%;
+    max-width: 900px;
+    padding: 15px;
+    margin: 0 auto;
+    
+  }
+  .logo {
+    max-width: 100%;
+    margin: 0 auto 20px;
+    align-items: center;
+    height: auto;
+  }
+  .form-hidden {
+    display: none;
+  }
+  .form-group{
+    margin-bottom: 20px;
+  }
+  .formC{
+    margin-top: 90px;
+  }
+  @media (max-widht:901px) {
+    .form-container {
+      flex-direction: column;
+      height: auto;
+    }
+    .formC {
+      margin-top: auto;
+      border:none;
+      
+    }
+   
+  }
+

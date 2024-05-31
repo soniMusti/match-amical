@@ -1,0 +1,28 @@
+@import "./node_modules/bootstrap/scss/functions";
+
+$primary:       #248232;
+$secondary:     #040f0f;
+$secondGreen:   #2ba84a;
+$lightDark:     #2d3a3a;
+$secondWhite:   #FCFFFC;
+
+
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/variables-dark";
+
+//override bs map
+
+$custom-theme-colors:(
+    secondGreen: $secondGreen,
+    lightDark:   $lightDark,
+    secondWhite: $secondWhite,
+    primary:     $primary,
+    secondary:   $secondary,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+    
+
+

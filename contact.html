@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Match - Contact</title>
+  <link rel="stylesheet" href="./src/assets/css/styles.css" />
+  <link rel="stylesheet" href="./src/assets/css/contact.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar border-bottom border-dark navbar-expand-md ">
+          <div class="container mb-n5">
+            <a class="navbar-brand" href="./index.html">
+              <img
+                src="./src/assets/img/MY MATCH-test.svg"
+                width="180"
+                class="img-fluid align-top"
+                alt=""
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse text-dark navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mx-auto text-dark me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-dark"
+                    aria-current="page"
+                    href="./index.html"
+                    >Accueil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href=".#">Calendrier</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Mes matchs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Messagerie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+              <div class="d-flex">
+                <img
+                  src="./src/assets/img/mon-compte.svg"
+                  alt="mon compte"
+                  class="btn"
+                  type="nav-link"
+                />
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+  <div class="container my-5">
+    <div class="row">
+      <!-- Placeholder image plan -->
+      <div class="col-md-6">
+        <div style="background-color: #ddd; height: 300px;">
+          
+          <img src="" class="img-fluid" alt="My Match adresse">
+        </div>
+      </div>
+
+      <!-- Contact formulaire -->
+      <div class="col-md-6">
+        <h2 class="section-title">Contactez-nous</h2>
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nom"></label>
+              <input type="text" id="nom" name="nom" class="form-control" placeholder="NOM" aria-required="false">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="prenom" hidden></label>
+              <input type="text" name="prenom" class="form-control" placeholder="PRENOM" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" hidden></label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="EMAIL"required>
+          </div>
+          <div class="form-group">
+            <label for="message" hidden></label>
+            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>MY MATCH</h5>
+          <p>Menu | Contact | CVG</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Social</h5>
+          <p>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+            <a href="#">Twitter</a>
+          </p>
+        </div>
+      </div>
+      <p>&copy; MYMATCH. All Rights Reserved 2024</p>
+    </div>
+  </footer>
+  <script src="./src/assets/script/index.js"></script>
+</body>
+</html>
