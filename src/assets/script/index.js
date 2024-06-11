@@ -40,14 +40,17 @@ document.querySelector('.contact-form').addEventListener('submit', function(even
       showError(message, 'Veuillez entrer votre message.');
     }
 
-    if (isValid) {
-      form.submit();
-    }
+    
     if (isValid) {
 
         // local storage
-        localStorage.setItem('contactForm', JSON.stringify({ nom, prenom, email, message }));
-
+        localStorage.setItem('contactForm', JSON.stringify({
+          nom: nom.value.trim(),
+          prenom: prenom.value.trim(),
+          email: email.value.trim(),
+          message: message.value.trim()
+      }));
+        
         alert('Votre message a bien été envoyé.');
 
         // window.location.href = 'confirmation.html';
